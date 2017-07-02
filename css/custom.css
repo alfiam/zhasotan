@@ -1,6 +1,7 @@
 body{
   /*padding-top: 50px;*/
   position: relative;
+  background-color: #c0dfd9;
 }
 .active a{
   background: white !important;
@@ -8,21 +9,47 @@ body{
 }
 .navbar{
   margin: 0;
+  background-color: #5EC4CD;
+}
+.navbar ul li a{
+  color: black !important;
 }
 .jumbotron{
   margin: 0;
-  background-color: #35C0CD;
+  padding-bottom: 0;
+  /*background-color: #35C0CD;*/
+  /*background-color: white;*/
+  background-color: #c0dfd9;
 }
 .jumbotron h1{
   font-family: 'Bree Serif', serif;
-
+  font-size: 10rem;
+  padding-top: 30px;
 }
-
+.page-header{
+  margin: 0 0 40px 0;
+  font-family: 'Ubuntu', sans-serif;
+  /*padding-bottom: 20px;*/
+}
 .carousel{
   height: 65vh !important;
 }
 .container{
   padding-top: 50px;
+  padding-bottom: 50px;
+  /*background-color: green;*/
+}
+.newss, #news{
+background-color: #c0dfd9;
+}
+.projects, #projects{
+background-color: #3fb0ac;
+}
+.gallery, #gallery{
+  background-color: #c0dfd9;
+}
+.footer{
+background-color: #3fb0ac;
 }
 #projects a{
   color: black;
@@ -383,11 +410,26 @@ p.more {
 }
 .cont-btn{
   padding: 10px;
-  background-color: none;
   border: 1px solid black;
+  color: black;
   border-radius: 0;
   margin-top: 50px;
 }
+.dark-btn{
+  padding: 10px;
+  border: 1px solid black;
+  color: black;
+  border-radius: 0;
+  margin-top: 50px;
+}
+
+.container a{
+  background-color: transparent !important;
+}
+/*.container a:hover{
+  color: #cccccc;
+  border: 1px solid #cccccc;
+}*/
 .newsrow{
   margin-top: 50px
 }
