@@ -14,6 +14,9 @@ body{
 .navbar ul li a{
   color: black !important;
 }
+.navbar-header{
+  float: left !important;
+}
 .jumbotron{
   margin: 0;
   padding-bottom: 0;
@@ -26,10 +29,17 @@ body{
   font-size: 10rem;
   padding-top: 30px;
 }
+.jumbotron2{
+  background-image: url(../images/gal_3.jpg);
+  height: 70vh;
+}
 .page-header{
   margin: 0 0 40px 0;
   font-family: 'Ubuntu', sans-serif;
   /*padding-bottom: 20px;*/
+}
+iframe{
+
 }
 .carousel{
   height: 65vh !important;
@@ -50,6 +60,10 @@ background-color: #3fb0ac;
 }
 .footer{
 background-color: #3fb0ac;
+}
+.footer h2{
+  padding: 0;
+  margin: 0;
 }
 #projects a{
   color: black;
